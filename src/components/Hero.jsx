@@ -1,5 +1,5 @@
 import React from 'react'
-import heroimg from '../assets/image placeholder.png'
+import heroimg from '../assets/ImagePlaceholder.png'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
