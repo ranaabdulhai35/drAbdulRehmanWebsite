@@ -1,0 +1,125 @@
+.nav {
+  margin-top: 20px;
+  font-family: "LT";
+  
+}
+.font {
+  font-family: "Lato";
+}
+.size40 {
+  font-size: 40px;
+  line-height:normal;
+}
+.semiBold {
+  font-weight: 400;
+}
+.heading {
+  font-size: 20;
+}
+.letterSpacing {
+  letter-spacing: -2px;
+}
+.tabs {
+  font-weight: normal;
+  font-size: 20;
+  color: "#000000";
+}
+.font-DMSans{
+  font-family: "DMSans";
+}
+.font-LexendTara{
+  font-family: "LexendTara";
+}
+.statsTypography{
+
+font-family: 'DMSans';
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+text-align: center;
+}
+.SearchBar{
+ 
+font-family: 'DMSans';
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+text-align: left;
+
+}
+.RTCard{
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+.Ortho1stbtn{
+  font-family: "LexendTera";
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: -0.17em;
+text-align: center;
+
+}
+.footerheading{
+  
+/* font-family: DM Sans; */
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+
+}
+.lis{
+  
+
+font-size: 18px;
+font-weight: 400;
+/* line-height: 18px; */
+text-align: center;
+color : #FFFFFF;
+text-align: left;
+
+
+margin-bottom: 6px;
+opacity: 0px;
+
+}
+.typoBotoxHeroBtn{
+  /* font-family: Lexend Tera; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.17em;
+  text-align: center;
+  
+}
+.typoBotoxtextH{
+  font-family: 'Poppins';
+font-size: 42px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+
+}
+.customStyleBotoxCompoHead{
+  font-family: "Poppins";
+font-size: 44px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.active{
+  color: #007E85;
+  border-bottom: 2px solid #007E85
+    
+  
+}

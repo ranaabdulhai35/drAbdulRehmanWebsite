@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Tera:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Tera:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap");
+
+html {
+  background-color: #ececec;
+}
+
+.vector {
+  background-image: url(./assets/Vectorvector.png);
+  background-position: 50% 0%;
+  background-size: contain;
+}
+.ortho1 {
+  background-image: url(./assets/ortho1.png);
+}
+
+@media (max-width: 1030px) {
+  .right-5 {
+    width: 100%;
+  }
+}
+.nav-p {
+  display: flex;
+  justify-content: center;
+}
+@font-face {
+  font-family: "LatoB";
+  src: url(./fonts/Lato/Lato-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato/Lato-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "LT";
+    src: url(./fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf) format("truetype");
+  }
+@font-face {
+    font-family: 'DMSans';
+    src:  url(./fonts/dmSans/DMSans-VariableFont_opsz,wght.ttf)  ;
+}
+@font-face {
+  font-family:  'LexendTara';
+  src: url(./fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf)
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(./fonts/Poppins/Poppins-Medium.ttf);
+}
+.font-poppins{
+  font-family: 'poppins';
+}
+.nav{
+  padding: 0%;
+}
+.font-LexendTara{
+  font-family: 'LexendTara';
+}
+.font-Montserrat{
+  font-family: 'Montserrat';
+}
