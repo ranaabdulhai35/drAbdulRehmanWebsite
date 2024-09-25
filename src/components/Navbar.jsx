@@ -33,6 +33,9 @@ function Navbar({ style }) {
 //  0324 4574564
 
   }
+  function goToEmail() {
+    window.location.href = `mailto:info@healthcare.com?subject=${encodeURIComponent("Inquiry about Healthcare Services")}&body=${encodeURIComponent("Hi there, I have visited your website and I'm interested in getting more information about your services.")}`;
+  }
   function goToOrtho() {
     navigate("/ortho");
   }
@@ -84,7 +87,7 @@ function Navbar({ style }) {
             Locations
           </h1>
           <h1 className={`${h1} ${location.pathname === "/HomeServices" ? "active" : ""}`} onClick={goToHomeServices} >HomeServices</h1>
-          <button className="bg-theme1 text-white w-[181px] h-[50px] rounded-[10px] hover:bg-transparent hover:text-theme1 hover:border-theme1 border-2 delay-75 duration-500 " onClick={goToWhatsapp} >Contact Us</button>
+          <button className="bg-theme1 text-white w-[181px] h-[50px] rounded-[10px] hover:bg-transparent hover:text-theme1 hover:border-theme1 border-2 delay-75 duration-500 " onClick={goToEmail} >Contact Us</button>
         </div>
         <span
           onClick={() => setShowMenu((showMenu) => !showMenu)}
