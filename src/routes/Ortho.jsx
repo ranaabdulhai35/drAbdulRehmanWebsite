@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
-import OrthoFindDoctor from "../components/OrthoFindDoctor";
-import OrthoHero from "../components/OrthoHero";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/footer.jsx";
+import OrthoFindDoctor from "../components/OrthoFindDoctor.jsx";
+import OrthoHero from "../components/OrthoHero.jsx";
 import SearchBar from "../components/SearchBar.jsx";
 import RatingCard from "../components/RatingCard.jsx";
 import {  ratingData } from "../Data/allImpData.js";

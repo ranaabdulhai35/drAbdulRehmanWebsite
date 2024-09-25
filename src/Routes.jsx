@@ -4,7 +4,7 @@ import {
     createBrowserRouter,
     
   } from "react-router-dom";
-import OrthoRoute from './routes/OrthoRoute';
+import OrthoRoute from './routes/Ortho';
 import Botox from './routes/Botox';
 import Location from './routes/Location';
 // import HomeCoponent from './components/HomeCoponent';
