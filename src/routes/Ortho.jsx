@@ -5,7 +5,7 @@ import OrthoFindDoctor from "../components/OrthoFindDoctor.jsx";
 import OrthoHero from "../components/OrthoHero.jsx";
 import SearchBar from "../components/SearchBar.jsx";
 import RatingCard from "../components/RatingCard.jsx";
-import {  ratingData } from "../Data/allImpData.js";
+import {  ratingData } from "../data/allImpData.js";
 import EquipmentsCard from "../components/EquipmentsCard.jsx";
 import Doctor2 from "../components/Doctor2.jsx";
 import BetweenText from "../components/BetweenText.jsx";
